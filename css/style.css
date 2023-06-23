@@ -1,0 +1,110 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1612103694713-d22bc172cb28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#searchHero{
+    display: block;
+    width: 53%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding-left: 2%;
+    background-color: whitesmoke;
+}
+#main-heading{
+    text-align: center;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: black;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: none;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008) ;
+    line-height: 0.10em;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0% ,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #0e3742;
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        box-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4 
+        0 0 40px #03bcf4
+        0 0 80px #03bcf4
+        0 0 160px #03bcf4
+
+    }
+    
+}
+
+.image-size{
+    width: 70px;
+    height: 70px;
+    margin-left: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    overflow: scroll;
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+#delFav{
+    color: red;
+    font-size: 25px;
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: lightgray;
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
